@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row top50">
+        <div class="panel panel-default panel-shadow">
+            <div class="panel-heading text-center">Search for patient in Institute and Department</div>
+            <div class="panel-body" >
+                <form #formSearch="ngForm">
+                    <div class="col-sm-12 col-md-4 fix-height">
+                        <label for="institute-select">Institute:</label>
+                        <select [(ngModel)]="institute" name="institute" class="select-search" id="institute-select" required (change)="instituteOnChange(institute)">
+                            <option *ngFor="let inst of institutes" [ngValue]="inst.code">{{inst.name}}</option>                        
+                        </select>
+                    </div>
+                    <div class="col-sm-12 col-md-4 fix-height">
+                        <label for="department-select">Department:</label>
+                        <select [(ngModel)]="department" name="department" class="select-search" id="department-select" required>
+                            <!--<option *ngFor="let deprt of departmentInInstitute" [ngValue]="deprt.code">{{deprt.name}}</option>-->
+                            <option *ngFor="let deprt of departments[selectedInstituteIndex]" [ngValue]="deprt.code">{{deprt.name}}</option>
+                        </select>
+                    </div>
+                </form>
+                <div class="col-sm-12 col-md-4 fix-height fix-position">
+                    <button [disabled]="!formSearch.form.valid" (click)="searchForPatients()" class="btn btn-default fix-position-bottom search-btn-height-colour">Search</button>
+                </div>
+            </div>
+        </div>
+        <pre> inst: {{institute}} dept: {{department}} {{errorMessage}}</pre>
+    </div>
+    <div class="row top50" *ngIf="patients && patients.length">
+        <div class="panel panel-default panel-shadow">
+            <div class="panel-heading text-center">Patients list</div>
+            <div class="panel-body">
+                <div class="table-responsive">          
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Patient Number</th>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Gender</th>
+                            <th>Date of Birth</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr *ngFor="let patient of patients">
+                            <td>{{patient.patientNumber}}</td>
+                            <td>{{patient.firstName}}</td>
+                            <td>{{patient.lastName}}</td>
+                            <td>{{patient.gender}}</td>
+                            <td>{{patient.birthdate | date}}</td>
+                        </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

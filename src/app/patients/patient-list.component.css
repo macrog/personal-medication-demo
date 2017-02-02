@@ -1,0 +1,34 @@
+.select-search{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+}
+.panel-shadow{
+    box-shadow: 2px 2px 2px #888888;
+}
+.search-btn-height-colour{
+    height: 30px;
+    background-color: black;
+    color: #e1e1e1;
+    font-weight: bold;
+}
+.fix-height{
+    height: 55px;    
+}
+.fix-position{
+    position: relative;
+}
+.fix-position-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}
+.panel-heading.text-center{
+    background-color: black;
+    color: #e1e1e1;
+    font-weight: bold;
+}
+.btn-default.disabled.focus, .btn-default[disabled]:hover {   
+    color: black;
+}

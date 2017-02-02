@@ -1,0 +1,137 @@
+[
+    {
+        "firstName": "Eric",
+        "lastName": "Brown", 
+        "patientNumber": 123456789, 
+        "gender": "male", 
+        "birthdate": "12-12-1977",
+        "instituteCode": "I1",
+        "departmentCode": "D1"
+    },
+    {
+        "firstName": "Jack",
+        "lastName": "Black", 
+        "patientNumber": 998877453, 
+        "gender": "male", 
+        "birthdate": "01-03-1984",
+        "instituteCode": "I1",
+        "departmentCode": "D1"
+    },
+    {
+        "firstName": "Teresa",
+        "lastName": "Yellow", 
+        "patientNumber": 897844452, 
+        "gender": "female", 
+        "birthdate": "11-09-1951",
+        "instituteCode": "I1",
+        "departmentCode": "D1"
+    },
+    {
+        "firstName": "Emil",
+        "lastName": "Pink", 
+        "patientNumber": 34242342, 
+        "gender": "male", 
+        "birthdate": "05-12-1977",
+        "instituteCode": "I1",
+        "departmentCode": "D2"
+    },
+    {
+        "firstName": "Isabel",
+        "lastName": "Blue", 
+        "patientNumber": 89984565, 
+        "gender": "female", 
+        "birthdate": "05-03-1984",
+        "instituteCode": "I1",
+        "departmentCode": "D2"
+    },
+    {
+        "firstName": "Carla",
+        "lastName": "Yellow-Green", 
+        "patientNumber": 45698712, 
+        "gender": "female", 
+        "birthdate": "11-09-1999",
+        "instituteCode": "I1",
+        "departmentCode": "D2"
+    },
+    {
+        "firstName": "Marco",
+        "lastName": "First", 
+        "patientNumber": 25424252, 
+        "gender": "male", 
+        "birthdate": "05-12-1987",
+        "instituteCode": "I2",
+        "departmentCode": "D3"
+    },
+    {
+        "firstName": "Kate",
+        "lastName": "Second", 
+        "patientNumber": 7887452, 
+        "gender": "female", 
+        "birthdate": "05-03-2003",
+        "instituteCode": "I2",
+        "departmentCode": "D3"
+    },
+    {
+        "firstName": "Cristina",
+        "lastName": "Third", 
+        "patientNumber": 878745255, 
+        "gender": "female", 
+        "birthdate": "11-09-1924",
+        "instituteCode": "I2",
+        "departmentCode": "D3"
+    },
+    {
+        "firstName": "Francisco",
+        "lastName": "Fran", 
+        "patientNumber": 565458452, 
+        "gender": "male", 
+        "birthdate": "05-12-1965",
+        "instituteCode": "I2",
+        "departmentCode": "D4"
+    },
+    {
+        "firstName": "Trisha",
+        "lastName": "Tran", 
+        "patientNumber": 454587845, 
+        "gender": "female", 
+        "birthdate": "05-03-2015",
+        "instituteCode": "I2",
+        "departmentCode": "D4"
+    },
+    {
+        "firstName": "Pola",
+        "lastName": "Lola", 
+        "patientNumber": 785425, 
+        "gender": "female", 
+        "birthdate": "11-09-1911",
+        "instituteCode": "I2",
+        "departmentCode": "D4"
+    },
+    {
+        "firstName": "James",
+        "lastName": "Jones", 
+        "patientNumber": 457896524, 
+        "gender": "male", 
+        "birthdate": "05-12-1955",
+        "instituteCode": "I2",
+        "departmentCode": "D5"
+    },
+    {
+        "firstName": "Barbara",
+        "lastName": "Barb", 
+        "patientNumber": 54458875454, 
+        "gender": "female", 
+        "birthdate": "05-03-2001",
+        "instituteCode": "I2",
+        "departmentCode": "D5"
+    },
+    {
+        "firstName": "Vicky",
+        "lastName": "Vic", 
+        "patientNumber": 54872588, 
+        "gender": "female", 
+        "birthdate": "11-09-1988",
+        "instituteCode": "I2",
+        "departmentCode": "D5"
+    }
+]

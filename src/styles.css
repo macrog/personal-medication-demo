@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #e1e1e1;
+    font-family: monospace;
+}
+.top50{
+    margin-top: 50px;
+}
