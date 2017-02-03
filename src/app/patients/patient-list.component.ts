@@ -78,7 +78,6 @@ export class PatientListComponent implements OnInit{
             onerror => this.errorMessage = <any>onerror);
     }
     storeState(){
-        debugger;
         this._stateService.set(this.patients, this.institute, this.department, this.selectedInstituteIndex);
     }
 }

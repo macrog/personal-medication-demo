@@ -7,6 +7,7 @@ export class StateService {
     private _instituteCode: string;
     private _departmentCode: string;
     private _instituteIndex: number;
+    private _stored: boolean = false;
 
     constructor() { }
 
@@ -15,6 +16,7 @@ export class StateService {
         this._instituteCode = instituteCode;
         this._departmentCode = departmentCode;
         this._instituteIndex = index;
+        this._stored = true;
     }
     getPatiets(){
         return this._patients;
@@ -29,7 +31,7 @@ export class StateService {
         return this._instituteIndex;
     }
     isStored(){
-        if(this._patients && this._instituteCode && this._departmentCode && this._instituteIndex){
+        if(this._stored){
            return true;
         }
         return false;

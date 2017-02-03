@@ -7,8 +7,7 @@ import { IMedication } from './medication';
 
 export class MedicationOrderPipe implements PipeTransform{
 
-    transform(value: IMedication[], args: string): IMedication[]{
-        console.log(args)
+    transform(value: IMedication[], args: string): IMedication[]{        
         value.sort((a: any, b: any) => {            
             if (a[args] < b[args]) {
                 return -1;
