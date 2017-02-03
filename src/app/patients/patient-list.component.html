@@ -32,31 +32,31 @@
                 <div class="table-responsive">          
                     <table class="table table-hover">
                         <thead>
-                        <tr>
-                            <th>Patient Number</th>
-                            <th>Firstname</th>
-                            <th>Lastname</th>
-                            <th>Gender</th>
-                            <th>Date of Birth</th>
-                        </tr>
+                            <tr>
+                                <th>Patient Number</th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Gender</th>
+                                <th>Date of Birth</th>
+                            </tr>
                         </thead>
                         <tbody>
-                        <tr *ngFor="let patient of patients">
-                            <td>{{patient.patientNumber}}</td>
-                            <td>{{patient.firstName}}</td>
-                            <td>{{patient.lastName}}</td>
-                            <td>
-                                <i *ngIf="patient.gender=='male'" 
-                                    ngbPopover="MALE" triggers="mouseenter:mouseleave" popoverTitle="Gender" 
-                                    class="fa fa-male">
-                                </i>
-                                <i *ngIf="patient.gender=='female'" 
-                                    ngbPopover="FEMALE" triggers="mouseenter:mouseleave" popoverTitle="Gender"
-                                    class="fa fa-female">
-                                </i> 
-                            </td>
-                            <td>{{patient.birthdate | date:'dd-MM-yyyy'}}</td>
-                        </tr>                        
+                            <tr *ngFor="let patient of patients">
+                                <td><a [routerLink]="['/patient',patient.patientNumber]">{{patient.patientNumber}}</a></td>
+                                <td>{{patient.firstName}}</td>
+                                <td>{{patient.lastName}}</td>
+                                <td>
+                                    <i *ngIf="patient.gender=='male'" 
+                                        ngbPopover="MALE" triggers="mouseenter:mouseleave" popoverTitle="Gender" 
+                                        class="fa fa-male">
+                                    </i>
+                                    <i *ngIf="patient.gender=='female'" 
+                                        ngbPopover="FEMALE" triggers="mouseenter:mouseleave" popoverTitle="Gender"
+                                        class="fa fa-female">
+                                    </i> 
+                                </td>
+                                <td>{{patient.birthdate | date:'dd-MM-yyyy'}}</td>
+                            </tr>                        
                         </tbody>
                     </table>
                 </div>

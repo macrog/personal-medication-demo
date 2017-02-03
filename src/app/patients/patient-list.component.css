@@ -24,11 +24,6 @@
     bottom: 0;
     width: 92%;
 }
-.panel-heading.text-center{
-    background-color: black;
-    color: #e1e1e1;
-    font-weight: bold;
-}
 .btn-default.disabled.focus, .btn-default[disabled]:hover {   
     color: black;
 }

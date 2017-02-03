@@ -1,0 +1,324 @@
+[
+  {
+    "name": "Abilify",
+    "dosage": "100ml",
+    "time": "Fri Feb 03 2017 12:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 54872588
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "100ml",
+    "time": "Fri Feb 03 2017 15:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 54872588
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 12:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 54872588
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 16:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 54458875454
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "100ml",
+    "time": "Fri Feb 03 2017 16:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 54458875454
+  },
+  {
+    "name": "Lipitor",
+    "dosage": "3 pills",
+    "time": "Fri Feb 03 2017 16:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 54458875454
+  },
+  {
+    "name": "Abilify",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 457896524
+  },
+  {
+    "name": "Keflex",
+    "dosage": "100ml",
+    "time": "Fri Feb 03 2017 06:45:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 457896524
+  },
+  {
+    "name": "Amlodipine",
+    "dosage": "25ml",
+    "time": "Fri Feb 03 2017 20:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 457896524
+  },
+  {
+    "name": "Keflex",
+    "dosage": "10ml",
+    "time": "Fri Feb 03 2017 17:15:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 457896524
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "100ml",
+    "time": "Fri Feb 03 2017 12:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 785425
+  },
+  {
+    "name": "Demerol",
+    "dosage": "1gr",
+    "time": "Fri Feb 03 2017 15:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 785425
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "10ml",
+    "time": "Fri Feb 03 2017 12:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 454587845
+  },
+  {
+    "name": "Nexium",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 10:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 454587845
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "50l",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 454587845
+  },
+  {
+    "name": "Bumetanide",
+    "dosage": "25ml",
+    "time": "Fri Feb 03 2017 06:45:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 565458452
+  },
+  {
+    "name": "Prozac",
+    "dosage": "100ml",
+    "time": "Fri Feb 03 2017 15:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 565458452
+  },
+  {
+    "name": "Amlodipine",
+    "dosage": "25ml",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 565458452
+  },
+  {
+    "name": "Ethacrynate",
+    "dosage": "25ml",
+    "time": "Fri Feb 03 2017 15:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 878745255
+  },
+  {
+    "name": "Ethacrynate",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 17:15:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 878745255
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "25ml",
+    "time": "Fri Feb 03 2017 12:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 878745255
+  },
+  {
+    "name": "Ethacrynate",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 7887452
+  },
+  {
+    "name": "Nexium",
+    "dosage": "3 pills",
+    "time": "Fri Feb 03 2017 16:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 7887452
+  },
+  {
+    "name": "Keflex",
+    "dosage": "25g",
+    "time": "Fri Feb 03 2017 15:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 7887452
+  },
+  {
+    "name": "Keflex",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 25424252
+  },
+  {
+    "name": "Amlodipine",
+    "dosage": "25ml",
+    "time": "Fri Feb 03 2017 10:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 25424252
+  },
+  {
+    "name": "Lipitor",
+    "dosage": "1gr",
+    "time": "Fri Feb 03 2017 12:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 25424252
+  },
+  {
+    "name": "Acetaminophen",
+    "dosage": "1gr",
+    "time": "Fri Feb 03 2017 06:45:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 25424252
+  },
+  {
+    "name": "Demerol",
+    "dosage": "1 pill",
+    "time": "Fri Feb 03 2017 06:45:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 45698712
+  },
+  {
+    "name": "Keflex",
+    "dosage": "50l",
+    "time": "Fri Feb 03 2017 16:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 45698712
+  },
+  {
+    "name": "Abilify",
+    "dosage": "25g",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 45698712
+  },
+  {
+    "name": "Demerol",
+    "dosage": "1gr",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 89984565
+  },
+  {
+    "name": "Plavix",
+    "dosage": "1 pill",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 89984565
+  },
+  {
+    "name": "Prozac",
+    "dosage": "50l",
+    "time": "Fri Feb 03 2017 16:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 89984565
+  },
+  {
+    "name": "Demerol",
+    "dosage": "3 pills",
+    "time": "Fri Feb 03 2017 17:15:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 34242342
+  },
+  {
+    "name": "Ethacrynate",
+    "dosage": "150 units",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 34242342
+  },
+  {
+    "name": "Demerol",
+    "dosage": "3 pills",
+    "time": "Fri Feb 03 2017 15:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 34242342
+  },
+  {
+    "name": "Demerol",
+    "dosage": "10ml",
+    "time": "Fri Feb 03 2017 17:15:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 897844452
+  },
+  {
+    "name": "Plavix",
+    "dosage": "3 pills",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 897844452
+  },
+  {
+    "name": "Acetaminophen",
+    "dosage": "50l",
+    "time": "Fri Feb 03 2017 17:15:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 897844452
+  },
+  {
+    "name": "Demerol",
+    "dosage": "10ml",
+    "time": "Fri Feb 03 2017 12:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 998877453
+  },
+  {
+    "name": "Plavix",
+    "dosage": "3 pills",
+    "time": "Fri Feb 03 2017 15:30:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 998877453
+  },
+  {
+    "name": "Keflex",
+    "dosage": "1 pill",
+    "time": "Fri Feb 03 2017 08:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 998877453
+  },
+  {
+    "name": "Diazepan",
+    "dosage": "1gr",
+    "time": "Fri Feb 03 2017 16:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 123456789
+  },
+  {
+    "name": "Ethacrynate",
+    "dosage": "100ml",
+    "time": "Fri Feb 03 2017 06:45:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 123456789
+  },
+  {
+    "name": "Demerol",
+    "dosage": "25ml",
+    "time": "Fri Feb 03 2017 20:00:00 GMT+0100 (CET)",
+    "remarks": "",
+    "patientNumber": 123456789
+  }
+]

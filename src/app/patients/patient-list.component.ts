@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { IPatient } from './patient';
-import { PatientService } from './patient.service';
+import { HttpService } from '../shared-service/http.service';
 
 @Component({
     moduleId: module.id,
-    selector: 'pat-list',
     templateUrl: 'patient-list.component.html',
     styleUrls:['patient-list.component.css']
 })
@@ -16,6 +15,7 @@ export class PatientListComponent implements OnInit{
     errorMessage: string;
     
     patients: IPatient[];
+
     institutes: any[] = [
         {
             name: 'Institute 1', 
@@ -55,10 +55,10 @@ export class PatientListComponent implements OnInit{
         ]
     ];
 
-    constructor(private _patientService: PatientService){}
+    constructor(private _httpService: HttpService){}
 
     ngOnInit(): void{
-                
+
     }
     instituteOnChange(value: any):void{        
         this.selectedInstituteIndex = this.institutes.findIndex(x => x.code===value);
@@ -66,7 +66,7 @@ export class PatientListComponent implements OnInit{
     }    
 
     searchForPatients(){
-        this._patientService.getPatients(this.institute, this.department)
+        this._httpService.getPatients(this.institute, this.department)
             .subscribe(patients => this.patients = patients,
             onerror => this.errorMessage = <any>onerror);
     }

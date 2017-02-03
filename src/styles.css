@@ -17,6 +17,7 @@ footer{
     font-size: 12px;
     opacity: 0.5;
 }
+
 i.fa.fa-github {
     color: black;
 }
@@ -26,4 +27,9 @@ i.fa.fa-github {
 .no-padding-left-right{
     padding-left: 0;
     padding-right: 0; 
+}
+.panel-heading.text-center{
+    background-color: black;
+    color: #e1e1e1;
+    font-weight: bold;
 }
