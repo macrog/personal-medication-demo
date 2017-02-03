@@ -42,7 +42,7 @@
                         </thead>
                         <tbody>
                             <tr *ngFor="let patient of patients">
-                                <td><a [routerLink]="['/patient',patient.patientNumber]">{{patient.patientNumber}}</a></td>
+                                <td><a (click)="storeState();" [routerLink]="['/patient',patient.patientNumber]">{{patient.patientNumber}}</a></td>
                                 <td>{{patient.firstName}}</td>
                                 <td>{{patient.lastName}}</td>
                                 <td>
