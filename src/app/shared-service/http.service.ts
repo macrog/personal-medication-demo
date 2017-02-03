@@ -4,26 +4,40 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-import { IPatient } from '../patients/patient'
+import { IPatientList } from '../patients/patient'
 import { IMedication } from '../patient-detail/medication'
 
 @Injectable()
 
 export class HttpService{
     
-    private patientsUrl = 'api/patients/patients.json';
-    private medsUrl = 'api/medications/meds.json';
+    private _patientsUrl = 'api/patients/patients.json';
+    private _institutesUrl = 'api/patients/institutes.json';
+    private _departmentsUrl = 'api/patients/departments.json';
+    private _medsUrl = 'api/medications/meds.json';
 
     constructor(private _http: Http){}
 
-    getPatients(institute, department) : Observable<IPatient[]>{        
-        return this._http.get(this.patientsUrl)
-                .map((response: Response) => <IPatient[]> this.filterPatients(response.json(), institute, department))
+    getPatients(institute, department) : Observable<IPatientList.IPatient[]>{        
+        return this._http.get(this._patientsUrl)
+                .map((response: Response) => <IPatientList.IPatient[]> this.filterPatients(response.json(), institute, department))
+                .catch(this.handleError);
+    };
+
+    getInstitutes() : Observable<IPatientList.IInstitute[]>{        
+        return this._http.get(this._institutesUrl)
+                .map((response: Response) => <IPatientList.IInstitute[]> response.json())
+                .catch(this.handleError);
+    };
+
+    getDepartments() : Observable<IPatientList.IDepartment[][]>{        
+        return this._http.get(this._departmentsUrl)
+                .map((response: Response) => <IPatientList.IDepartment[][]> response.json())
                 .catch(this.handleError);
     };
 
     getMeds(patientNumber): Observable<IMedication[]>{
-        return this._http.get(this.medsUrl)
+        return this._http.get(this._medsUrl)
                 .map((response: Response) => <IMedication[]> this.filterMedication(response.json(), patientNumber))
                 ._catch(this.handleError);
     }

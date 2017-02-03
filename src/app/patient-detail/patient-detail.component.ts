@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { ActivatedRoute } from '@angular/router'
-
 import { IMedication } from './medication'
-
 import { HttpService } from '../shared-service/http.service';
 
 @Component({

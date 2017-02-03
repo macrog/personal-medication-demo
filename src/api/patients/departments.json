@@ -1,0 +1,27 @@
+[
+    [
+        {
+            "name":"Department 1",
+            "code":"D1"
+        },
+        {
+            "name":"Department 2",
+            "code":"D2"
+        }
+    ],
+    [            
+        {
+            "name":"Department 3",
+            "code":"D3"
+        },
+        {
+            "name":"Department 4",
+            "code":"D4"
+        }
+        ,
+        {
+            "name":"Department 5",
+            "code":"D5"
+        }        
+    ]
+]

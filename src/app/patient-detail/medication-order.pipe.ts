@@ -18,5 +18,5 @@ export class MedicationOrderPipe implements PipeTransform{
             }
         });
         return value;
-    }
+    };
 }
