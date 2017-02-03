@@ -11,6 +11,7 @@ import { PatientListComponent } from './patients/patient-list.component';
 import { PatientDetailComponent } from './patient-detail/patient-detail.component';
 import { MedicationOrderPipe } from './patient-detail/medication-order.pipe';
 
+import { PatientGuardService } from './shared-service/patient-guard.service';
 
 @NgModule({
   declarations: [
@@ -26,12 +27,12 @@ import { MedicationOrderPipe } from './patient-detail/medication-order.pipe';
     NgbModule.forRoot(),
     RouterModule.forRoot([
       { path: 'patients', component: PatientListComponent },
-      { path: 'patient/:patientNumber', component: PatientDetailComponent },
+      { path: 'patient/:patientNumber', canActivate: [ PatientGuardService ], component: PatientDetailComponent },
       { path: '', redirectTo: 'patients', pathMatch: 'full'},
       { path: '**', redirectTo: 'patients', pathMatch: 'full'}
     ])
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ PatientGuardService ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
