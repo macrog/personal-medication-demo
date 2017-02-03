@@ -1,7 +1,12 @@
 <div class="container no-padding-left-right top50">    
     <div class="container no-padding-left-right top50" *ngIf="meds && meds.length">
         <div class="panel panel-default panel-shadow">
-            <div class="panel-heading text-center">Medicine list for, patient #{{patientText}}</div>
+            <div class="panel-heading text-center">
+                <a [routerLink]="['/patients']">
+                    <i class="fa fa-arrow-left" id="backArrow"></i>
+                </a>
+                Medications list for, patient #{{patientNumber}}
+            </div>
             <div class="panel-body">
                 <div class="table-responsive">          
                     <table class="table table-hover">
@@ -20,12 +25,25 @@
                                 <td>{{med.dosage}}</td>
                                 <td>{{med.time | date:'HH:mm' }}</td>                                
                                 <td>{{med.remarks}}</td>
-                                <td><i class="fa fa-info-circle"></i></td>
+                                <td>
+                                    <i class="fa fa-info-circle" (click)="openRemarkForm(med)"></i>                                    
+                                </td>
+                                <template #content let-c="close" let-d="dismiss">
+                                    
+                                </template>
                             </tr>                        
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div *ngIf="openRemarks" id="remarks-container">
+    <div id="remarks-title">Please provide remarks for {{currentMed.name.toUpperCase()}} medication</div> 
+    <input id="remarks-input" [placeholder]="placeholder" type="text" [(ngModel)]="currentMed.remark">
+    <div id="remarks-btns" class="col-sm-4 col-sm-offset-4">
+        <div class="col-sm-6"><i class="fa fa-times-circle-o fa-2x" (click)="openRemarks=!openRemarks"></i></div>
+        <div class="col-sm-6"><i class="fa fa-check-circle-o fa-2x" (click)="saveRemark(currentMed.remark)"></i></div>
     </div>
 </div>

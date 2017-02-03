@@ -11,6 +11,7 @@ import { PatientListComponent } from './patients/patient-list.component';
 import { PatientDetailComponent } from './patient-detail/patient-detail.component';
 import { MedicationOrderPipe } from './patient-detail/medication-order.pipe';
 
+
 @NgModule({
   declarations: [
     AppComponent,
