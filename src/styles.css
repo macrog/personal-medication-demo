@@ -3,6 +3,27 @@ body{
     background-color: #e1e1e1;
     font-family: monospace;
 }
+header{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px;
+}
+footer{
+    width: inherit;
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    opacity: 0.5;
+}
+i.fa.fa-github {
+    color: black;
+}
 .top50{
     margin-top: 50px;
+}
+.no-padding-left-right{
+    padding-left: 0;
+    padding-right: 0; 
 }

@@ -4,13 +4,11 @@ import { PatientService } from './patients/patient.service';
 @Component({
     selector: 'app-root',
     moduleId: module.id,
-    template: `<div class='container'>
-                  <pat-list></pat-list>
-              </div>`,
+    templateUrl: 'app.component.html',
     providers: [PatientService]
 })
 export class AppComponent {
-    title = 'app works!';
+    pageHeader = "HEALTHY CLINIC - PATIENT'S MEDICATION ";
 }
 
     

@@ -1,7 +1,8 @@
-<div class="container">
-    <div class="row top50">
+<div class="container no-padding-left-right">
+    <div class="container no-padding-left-right top50">
         <div class="panel panel-default panel-shadow">
-            <div class="panel-heading text-center">Search for patient in Institute and Department</div>
+            <div class="panel-heading text-center">SEARCH FOR PATIENT BY INSTITUTE AND DEPARTMENT</div>
+            <!--<div class="panel-heading text-center">Search for patient in Institute and Department</div>-->
             <div class="panel-body" >
                 <form #formSearch="ngForm">
                     <div class="col-sm-12 col-md-4 fix-height">
@@ -18,14 +19,13 @@
                         </select>
                     </div>
                 </form>
-                <div class="col-sm-12 col-md-4 fix-height fix-position">
+                <div class="col-sm-12 col-md-4 fix-height fix-position-relative">
                     <button [disabled]="!formSearch.form.valid" (click)="searchForPatients()" class="btn btn-default fix-position-bottom search-btn-height-colour">Search</button>
                 </div>
             </div>
         </div>
-        <pre> inst: {{institute}} dept: {{department}} {{errorMessage}}</pre>
     </div>
-    <div class="row top50" *ngIf="patients && patients.length">
+    <div class="container no-padding-left-right top50" *ngIf="patients && patients.length">
         <div class="panel panel-default panel-shadow">
             <div class="panel-heading text-center">Patients list</div>
             <div class="panel-body">
@@ -45,15 +45,22 @@
                             <td>{{patient.patientNumber}}</td>
                             <td>{{patient.firstName}}</td>
                             <td>{{patient.lastName}}</td>
-                            <td>{{patient.gender}}</td>
-                            <td>{{patient.birthdate | date}}</td>
-                        </tr>
-                        
+                            <td>
+                                <i *ngIf="patient.gender=='male'" 
+                                    ngbPopover="MALE" triggers="mouseenter:mouseleave" popoverTitle="Gender" 
+                                    class="fa fa-male">
+                                </i>
+                                <i *ngIf="patient.gender=='female'" 
+                                    ngbPopover="FEMALE" triggers="mouseenter:mouseleave" popoverTitle="Gender"
+                                    class="fa fa-female">
+                                </i> 
+                            </td>
+                            <td>{{patient.birthdate | date:'dd-MM-yyyy'}}</td>
+                        </tr>                        
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
-
     </div>
 </div>

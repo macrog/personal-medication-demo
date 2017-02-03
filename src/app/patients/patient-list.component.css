@@ -16,13 +16,13 @@
 .fix-height{
     height: 55px;    
 }
-.fix-position{
+.fix-position-relative{
     position: relative;
 }
 .fix-position-bottom{
     position: absolute;
     bottom: 0;
-    width: 95%;
+    width: 92%;
 }
 .panel-heading.text-center{
     background-color: black;
