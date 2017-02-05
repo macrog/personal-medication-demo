@@ -3,8 +3,8 @@
     padding-left: 0;
     padding-right: 0;
 }
-.top50{
-    margin-top: 50px;
+.top40{
+    margin-top: 40px;
 }
 h3.popover-title {
     display: none;
@@ -32,4 +32,7 @@ footer{
     background-color: #cdd9e1;
     color: black;
     font-size: 15px;
+}
+.panel.panel-default{
+    margin-bottom: 50px;
 }
