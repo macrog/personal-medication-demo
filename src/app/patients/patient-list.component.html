@@ -1,9 +1,9 @@
 <div class="container no-padding-left-right">
     <div class="container no-padding-left-right top50" *ngIf="institutes && institutes.length && departments && departments.length">
-        <div class="panel panel-default panel-shadow">
-            <div class="panel-heading text-center">SEARCH FOR PATIENT BY INSTITUTE AND DEPARTMENT</div>
-            <!--<div class="panel-heading text-center">Search for patient in Institute and Department</div>-->
-            <div class="panel-body" >
+        <div class="panel panel-default no-margin-bottom">
+            <div class="panel-heading heading2">SEARCH A PATIENT</div>
+            <!--<div class="panel-heading  ">Search for patient in Institute and Department</div>-->
+            <div class="panel-body body2" >
                 <form #formSearch="ngForm">
                     <div class="col-sm-12 col-md-4 fix-height">
                         <label for="institute-select">Institute:</label>
@@ -27,9 +27,9 @@
     </div>
     <div class="container no-padding-left-right top50" *ngIf="patients && patients.length">
         <div class="panel panel-default panel-shadow">
-            <div class="panel-heading text-center">Patients list</div>
-            <div class="panel-body">
-                <div class="table-responsive">          
+            <div class="panel-heading heading3">PATIENT LIST</div>
+            <div class="panel-body body3">
+                <div class="table-responsive margin-l-r">          
                     <table class="table table-hover">
                         <thead>
                             <tr>
@@ -47,11 +47,11 @@
                                 <td>{{patient.lastName}}</td>
                                 <td>
                                     <i *ngIf="patient.gender=='male'" 
-                                        ngbPopover="MALE" triggers="mouseenter:mouseleave" popoverTitle="Gender" 
+                                        ngbPopover="MALE" triggers="mouseenter:mouseleave"
                                         class="fa fa-male">
                                     </i>
                                     <i *ngIf="patient.gender=='female'" 
-                                        ngbPopover="FEMALE" triggers="mouseenter:mouseleave" popoverTitle="Gender"
+                                        ngbPopover="FEMALE" triggers="mouseenter:mouseleave"
                                         class="fa fa-female">
                                     </i> 
                                 </td>

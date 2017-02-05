@@ -1,0 +1,37 @@
+#header-container{
+    height: 75px;
+}
+#header-title{
+    width: auto;
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    line-height: 75px;
+    font-family: sans-serif;
+    color: #002d73;
+}
+#header-logo-container{
+    float: right;
+    width: 140px;
+    display: -webkit-inline-box;
+}
+#logoH{
+        width: 70px;
+    height: 75px;
+    color: white;
+    background-color: #206a9b;
+    text-align: center;
+    line-height: 75px;
+    font-size: 45px;
+    font-weight: bold;
+}
+#logoC{
+        width: 70px;
+    height: 75px;
+    color: #206a9b;
+    background-color: #cdd9e1;
+    text-align: center;
+    line-height: 75px;
+    font-size: 55px;
+    font-weight: bold;
+}

@@ -6,6 +6,7 @@ import { StateService } from './shared-service/state.service';
     selector: 'app-root',
     moduleId: module.id,
     templateUrl: 'app.component.html',
+    styleUrls: ['app.component.css'],
     providers: [HttpService, StateService]
 })
 export class AppComponent {

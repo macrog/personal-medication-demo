@@ -1,12 +1,45 @@
+.heading3{
+    background-color: #cdd9e1;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+.body3{
+    background-color: #cdd9e1;
+    color: black;
+    font-size: 15px;
+}
+thead{
+    color: #002d73;
+}
+td {
+    border-top: 1px solid #002d73 !important;   
+}
+
+.table>thead>tr>th {
+    border-bottom: none;
+}
+.margin-l-r{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+i#backArrow{
+    color: #ffb641;
+}
+
+
 #remarks-container{  
     width: 400px;
     height: 150px;
-    border: 1px solid black;
     text-align: center;
     position: absolute;
     top: calc(50% - 75px);
     left: calc(50% - 200px);
-    background-color: darkgrey;
+    background-color: #206a9b;
+    color: white;
     box-shadow: 2px 2px 2px;
 }
 #remarks-title{
@@ -14,6 +47,7 @@
     padding: 7px;
 }
 #remarks-input{
+    color: black;
     padding: 4px;
     margin: 10px;
     width: 80%;
