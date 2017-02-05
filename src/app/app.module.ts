@@ -5,19 +5,20 @@ import { HttpModule } from '@angular/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/head.component';
+import { FooterComponent } from './footer/foot.component';
 import { PatientListComponent } from './patients/patient-list.component';
 import { PatientDetailComponent } from './patient-detail/patient-detail.component';
-import { FooterComponent } from './footer/foot.component';
 import { MedicationOrderPipe } from './patient-detail/medication-order.pipe';
-
 import { PatientGuardService } from './shared-service/patient-guard.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PatientListComponent,
-    PatientDetailComponent,
+    HeaderComponent,
     FooterComponent,
+    PatientListComponent,
+    PatientDetailComponent,    
     MedicationOrderPipe   
   ],
   imports: [

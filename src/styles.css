@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.no-padding-left-right{
+.no-padding-l-r{
     padding-left: 0;
     padding-right: 0;
 }
@@ -10,9 +10,26 @@ h3.popover-title {
     display: none;
 }
 footer{
-    width: inherit;
+   width: inherit;
     position: fixed;
     bottom: 0;
     font-size: 12px;
-    opacity: 0.5;
+    border-top: 1px dashed rgba(32,106,155, 0.5);
+    background-color: #cdd9e1;
+    color: #206a9b;
+}
+/*styles for tables panel holders*/
+.list-heading{
+    background-color: #cdd9e1 !important;
+    color: black !important;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+.list-body{
+    background-color: #cdd9e1;
+    color: black;
+    font-size: 15px;
 }

@@ -1,17 +1,3 @@
-.heading3{
-    background-color: #cdd9e1;
-    color: black;
-    font-weight: bold;
-    font-size: 19px;
-    border: none;
-    padding-left: 30px;
-    padding-bottom: 25px;
-}
-.body3{
-    background-color: #cdd9e1;
-    color: black;
-    font-size: 15px;
-}
 thead{
     color: #002d73;
 }
@@ -29,8 +15,6 @@ td {
 i#backArrow{
     color: #ffb641;
 }
-
-
 #remarks-container{  
     width: 400px;
     height: 150px;

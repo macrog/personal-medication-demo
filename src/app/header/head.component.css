@@ -1,9 +1,5 @@
-#header-container{
-    height: 75px;
-}
 #header-title{
-    width: auto;
-    font-size: 35px;
+    font-size: 2.5vw;
     font-weight: bold;
     float: left;
     line-height: 75px;
@@ -16,7 +12,7 @@
     display: -webkit-inline-box;
 }
 #logoH{
-        width: 70px;
+    width: 70px;
     height: 75px;
     color: white;
     background-color: #206a9b;
@@ -26,7 +22,7 @@
     font-weight: bold;
 }
 #logoC{
-        width: 70px;
+    width: 70px;
     height: 75px;
     color: #206a9b;
     background-color: #cdd9e1;

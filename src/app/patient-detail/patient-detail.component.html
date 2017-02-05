@@ -1,7 +1,7 @@
-<div class="container no-padding-left-right">    
-    <div class="container no-padding-left-right top50" *ngIf="meds && meds.length">
+<div class="container no-padding-l-r">    
+    <div class="container no-padding-l-r top50" *ngIf="meds && meds.length">
         <div class="panel panel-default panel-shadow">
-            <div class="panel-heading heading3">                
+            <div class="panel-heading list-heading">                
                 MEDICATION LIST FOR PATIENT #{{patientNumber}}
                 <div class="pull-right">                    
                     <a [routerLink]="['/patients']">
@@ -11,7 +11,7 @@
                     </a>                   
                 </div>
             </div>
-            <div class="panel-body body3">
+            <div class="panel-body list-body">
                 <div class="table-responsive margin-l-r">          
                     <table class="table table-hover">
                         <thead>

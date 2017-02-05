@@ -1,4 +1,4 @@
-.heading2{
+.search-heading{
     background-color: #206a9b;
     color: white;
     font-weight: bold;
@@ -7,29 +7,16 @@
     padding-left: 30px;
     padding-bottom: 25px;
 }
-.heading3{
-    background-color: #cdd9e1;
-    color: black;
-    font-weight: bold;
-    font-size: 19px;
-    border: none;
-    padding-left: 30px;
-    padding-bottom: 25px;
-}
-.body2{
+.search-body{
     background-color: #206a9b;
     color: black;
     font-weight: bold;
     font-size: 15px;
     padding-bottom: 30px;
 }
-.body3{
-    background-color: #cdd9e1;
-    color: black;
-    font-size: 15px;
-}
+
 .select-search{
-    width: 90%;
+    width: 100%;
     height: 25px;
     background-color: white;
 }

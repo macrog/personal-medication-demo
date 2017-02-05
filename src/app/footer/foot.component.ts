@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'foot',
-    template:  '<div [innerHTML]="footerText" class="text-center"></div>'
+    template:  '<div class="text-center"><p [innerHTML]="footerText"></p></div>',
+    styles:['p{margin: 0px; opacity:0.6}']
 })
 
 export class FooterComponent{
