@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { IPatient } from '../patients/patient'
+import { IPatientList } from '../patients/patient'
 
 @Injectable()
 export class StateService {
-    private _patients: IPatient[];
+    private _patients: IPatientList.IPatient[];
     private _instituteCode: string;
     private _departmentCode: string;
     private _instituteIndex: number;
@@ -11,7 +11,7 @@ export class StateService {
 
     constructor() { }
 
-    set(patients: IPatient[], instituteCode: string, departmentCode: string, index: number){
+    set(patients: IPatientList.IPatient[], instituteCode: string, departmentCode: string, index: number){
         this._patients = patients;
         this._instituteCode = instituteCode;
         this._departmentCode = departmentCode;

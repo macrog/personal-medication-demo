@@ -11,10 +11,10 @@ import { IMedication } from '../patient-detail/medication'
 
 export class HttpService{
     
-    private _patientsUrl = 'api/patients/patients.json';
-    private _institutesUrl = 'api/patients/institutes.json';
-    private _departmentsUrl = 'api/patients/departments.json';
-    private _medsUrl = 'api/medications/meds.json';
+    private _patientsUrl = 'src/api/patients/patients.json';
+    private _institutesUrl = 'src/api/patients/institutes.json';
+    private _departmentsUrl = 'src/api/patients/departments.json';
+    private _medsUrl = 'src/api/medications/meds.json';
 
     constructor(private _http: Http){}
 
