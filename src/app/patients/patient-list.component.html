@@ -12,7 +12,7 @@
                     </div>
                     <div class="col-sm-12 col-md-4 fix-height">
                         <label for="department-select">Department:</label>
-                        <select [(ngModel)]="department" name="department" class="select-search" id="department-select" required>
+                        <select [(ngModel)]="department" [disabled]="!institute" name="department" class="select-search" id="department-select" required>
                             <option *ngFor="let deprt of departments[selectedInstituteIndex]" [ngValue]="deprt.code">{{deprt.name}}</option>
                         </select>
                     </div>
